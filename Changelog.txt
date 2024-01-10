@@ -1,0 +1,19 @@
+- Removed Login Icons (not needed - MakerHub is single-user only)
+- Removed Call to OWS  API Server for Community Catalogue
+- After Fresh Installation Perma-Cookie is automatically set and default M2 configuration populated
+- Fixed makerverse path name hard coded into   webpack.js  files which prevented  "npm run  start"  script from working
+- Added ARM64  (Raspberry Pi4/5/Apple Silicon) into the electron-builder scripts:  *currently untested*
+- removed pre-releases check from  General Settings Screen
+- removed update-checking container from  About screen that was non-functional
+- changed "Report an Issue"  link in  /settings/about  page from "http://www.makerverse.com/about/#issues"  to "https://makermade.freshdesk.com/support/tickets/new"
+
+- Updated Copyright © 2023 MakerMade to Copyright © 2024 MakerMade
+- After Fresh Installation Perma-Cookie is automatically set and default M2 configuration populated
+- Removed message that shows the following message on firstrun when there is no makerverse configuration files:
+          Corrupted workspace settings
+          The workspace settings have become corrupted or invalid. Click Restore Defaults to restore default settings and continue.
+- When Creating a custom machine  38400 baud is the default speed
+
+ToDo:
+- Changed Gcode Style from Maslow to M2  on Create Custom machine page
+- removing checkboxes related to Community Catalogue 
