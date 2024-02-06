@@ -1,17 +1,4 @@
-Starting with MakerHub v1.2.1, if you were previously using MakerHub v1.2.0 or any version of Makerverse you will need to delete the following files and uninstall previous versions of Makerverse or MakerHub:
+Makerverse and Makerhub prior to v1.3.0  are now officially unsupported. There are sometimes ways to patch old versions of makerverse and makerhub (they all had various bugs that have been addressed and fixed) but occassionally those solutions still don't work in some edge cases.
 
-For Windows Users:
+If there are any feature requests, bugs, annoyances, etc,  please open a ticket. 
 
-delete:
-
-C:\Users\{your windows user name}\.makerverse
-C:\Users\{your windows user name}\.makerverse-sessions
-
-For MacOS Users:
-
-delete
-
-/Users/{your user name}/.makerverse
-/Users/{your user name}/.makerverse-sessions
-
-A partner webservice  OWS (Open Work Shop) went offline and will not be returning in the forseeable future. MakerHub v1.2.1 fixes this problem but you will unfortunately need to recreate your machine profiles and recalibrate the machine.
